@@ -1,0 +1,309 @@
+/*--------------------------- 
+Add Plugin Front-End CSS here 
+---------------------------*/
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.tg_testimonials_wrapper .owl-nav button:after {
+    opacity: 0 !important;
+}
+.tg_testimonials_wrapper[template="template2"] p.rating {
+    font-size: 17px;
+}
+.justify-content-between {
+    -ms-flex-pack: justify!important;
+    justify-content: space-between!important;
+}
+.mr-3, .mx-3 {
+    margin-right: 1rem!important;
+}
+.font-weight-bold {
+    font-weight: 700!important;
+}
+.text-muted {
+    color: #6c757d!important;
+}
+
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+.small, small {
+    font-size: 80%;
+    font-weight: 400;
+}
+.tg_testimonials_wrapper .owl-nav button {
+    position: absolute;
+    top: 0;
+    color: #505050 !important;
+    bottom: 0;
+    margin: auto !important;
+    background: transparent !important;
+    width: 35px !important;
+    height: 35px !important;
+    border-radius: 100% !important;
+    border: 1px solid #dedede !important;
+    font-size: 31px !important;
+    line-height: 0px !important;
+    outline: none !important;
+}
+.tg_testimonials_wrapper[template="template1"] .owl-item .item {
+   box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+.tg_testimonials_wrapper[template="template1"] .author-detail {
+    width: 100%;
+}
+.tg_testimonials_wrapper[template="template1"] p.rating {
+    width: 100%;
+    text-align: left;
+    float: left;
+    margin: 4px 0 7px;
+}
+.tg_testimonials_wrapper[template="template2"] p.rating {
+    font-size: 17px;
+    width: 100%;
+    margin: 15px 0px 7px;
+    float: left;
+}
+.tg_testimonials_wrapper[template="template2"] .testi-text, .tg_testimonials_wrapper[template="template2"] .hh {
+    width: 100%;
+    float: left;
+}
+.tg_testimonials_wrapper[template="template2"] .owl-item>div, .tg_testimonials_wrapper[template="template2"] .owl-item>div>div, .tg_testimonials_wrapper[template="template2"] .owl-item>div .bg-commo {
+    float: left;
+    width: 100%;
+}
+.tg_testimonials_wrapper[template="template1"] .owl-item.active.center .item {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+.tg_testimonials_wrapper .owl-nav button span {
+    display: block;
+    margin-top: -2px;
+}
+.tg_testimonials_wrapper .owl-theme .owl-dots button.owl-dot.active span {
+    transform: scale(1.5);
+}
+.tg_testimonials_wrapper .owl-theme .owl-dots button.owl-dot{
+    outline: none !important;
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: #fff !important;
+    border: 1px solid #b9b9b9 !important;
+}
+.tg_testimonials_wrapper .owl-nav button.owl-prev {
+    left: 0;
+}
+.tg_testimonials_wrapper .owl-nav button.owl-next {
+    right: 0;
+}
+
+.tg_testimonials_wrapper {
+    position: relative;
+}
+.tg_testimonials_wrapper[template="template1"] .owl-stage-outer {
+    padding: 40px 0 0;
+}
+.tg_testimonials_wrapper[template="template1"] .item {
+	text-align: center;
+	margin-bottom: 50px;
+	padding: 15px;
+	opacity: .2;
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: #FFF;
+	border-radius: 3px;
+}
+.tg_testimonials_wrapper[template="template1"] .owl-item.active.center .item {
+	opacity: 1;
+	-webkit-transform: scale3d(1.0, 1.0, 1);
+	transform: scale3d(1.0, 1.0, 1);
+	background-color: #FFF;
+}
+.tg_testimonials_wrapper[template="template1"] .owl-carousel .owl-item img {
+	transform-style: preserve-3d;
+	max-width: 90px;
+	margin: 0 auto 17px;
+}
+.tg_testimonials_wrapper[template="template1"].owl-carousel .owl-dots .owl-dot.active span, .tg_testimonials_wrapper[template="template1"]st.owl-carousel .owl-dots .owl-dot:hover span {
+	background: #fff;
+	transform: translate3d(0px, -50%, 0px) scale(0.6);
+}
+.tg_testimonials_wrapper[template="template1"].owl-carousel .owl-dots {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.tg_testimonials_wrapper[template="template1"].owl-carousel .owl-dots .owl-dot {
+	display: inline-block;
+	outline: none;
+}
+.tg_testimonials_wrapper[template="template1"].owl-carousel .owl-dots .owl-dot span {
+	background: rgba(255,255,255,0.4);
+	display: inline-block;
+	height: 20px;
+	margin: 0 2px 5px;
+	transform: translate3d(0px, -50%, 0px) scale(0.3);
+	transform-origin: 50% 50% 0;
+	transition: all 250ms ease-out 0s;
+	width: 20px;
+	border-radius: 100%;
+}
+.tg_testimonials_wrapper[template="template1"] .commo img {
+	width: 30px !important;
+	height: auto;
+	float: left;
+}
+.tg_testimonials_wrapper[template="template1"] .author-img img {
+	width: 60px !important;
+	height: auto;
+	border-radius: 100%;
+	margin-bottom: 0 !important;
+}
+.tg_testimonials_wrapper[template="template1"] img.company-logo {
+    width: 90px;
+    margin: auto;
+    margin-bottom: 18px;
+}
+.tg_testimonials_wrapper[template="template1"] p.text-muted {
+    font-size: 15px;
+}
+.tg_testimonials_wrapper[template="template1"] .item {
+    padding: 10% 8%;
+}
+.tg_testimonials_wrapper[template="template1"] .item h6 {
+    margin: 0;
+}
+.tg_testimonials_wrapper[template="template1"] .author-detail {
+    text-align: left;
+    display: flex;
+}
+.tg_testimonials_wrapper[template="template1"] .author-detail .author-img {
+    margin-right: 12px;
+}
+.tg_testimonials_wrapper[template="template1"] .author-detail .info {
+    padding: 13px 0 0;
+}
+.tg_testimonials_wrapper[template="template1"] .author-detail .info p {
+    line-height: 20px;
+}
+.tg_testimonials_wrapper[template="template1"] .author-img img {
+    border: 1px solid #ececec;
+}
+.tg_testimonials_wrapper[template="template1"] p.rating {
+    font-size: 22px;
+    letter-spacing: 6px;
+    color: #dedede;
+}
+/*------------------------------------------------------------------------------------
+        ------------------------------ testimonial design 2nd start---------------------------
+        --------------------------------------------------------------------------------------*/
+
+
+.tg_testimonials_wrapper[template="template2"] .owl-carousel .owl-item img {
+	display: inline-block !important;
+	width: auto;
+}
+.tg_testimonials_wrapper[template="template2"] .hh a img {
+    height: 50px !important;
+    width: auto !important;
+}
+.tg_testimonials_wrapper[template="template2"] .owl-nav button {
+    position: relative;
+    margin-bottom: 12px !important;
+    border-radius: 0px !important;
+    margin: 7px 3px 17px !important;
+}
+.tg_testimonials_wrapper[template="template2"] .owl-carousel {
+    box-shadow: 0px 0px 25px -16px;
+    padding: 48px;
+    border-radius: 10px !important;
+}
+.tg_testimonials_wrapper[template="template2"] .author-img img {
+	width: 150px !important;
+	height: auto;
+}
+.tg_testimonials_wrapper[template="template2"] .testi-text {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	line-height: 34px;
+}
+.tg_testimonials_wrapper[template="template2"] .testi-heading {
+	font-family: Georgia, "Times New Roman", Times, serif;	
+}
+.tg_testimonials_wrapper[template="template2"] .hh {
+	letter-spacing: 5px;
+}
+.tg_testimonials_wrapper[template="template2"] .bg-commo {
+	background: url(../images/commo.png) no-repeat right bottom;
+}
+
+/*------------------------------------------------------------------------------------
+        ------------------------------ testimonial design 2nd end---------------------------
+        --------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------- 
+Responsive CSS here 
+*
+*   Remember these queries are a good start
+*   but media queries go much deeper than this.
+*
+---------------------------*/
+/*
+Medium/Large Screens 
+*/
+@media only screen and (max-width: 1430px) {
+    
+}
+/*
+Medium Screens 
+*/
+@media only screen and (max-width: 1280px) {
+    
+}
+/*
+Large Tablet Screens 
+*/
+@media only screen and (max-width: 980px) {
+    
+}
+/*
+Medium Tablet Screens 
+*/
+@media only screen and (max-width: 768px) {
+
+}
+/*
+Small Tablet/Largest Phone Screens 
+*/
+@media only screen and (max-width: 600px) {
+  .tg_testimonials_wrapper[template="template2"] .owl-carousel .owl-item .d-flex {
+    display: block !important;
+}  
+}
+/*
+Large Phone Screens 
+*/
+@media only screen and (max-width: 420px) {
+    
+}
+/*
+Medium Phone Screens 
+*/
+@media only screen and (max-width: 380px) {
+    
+}
+/*
+Small Phone / Apple Watch Screens 
+*/
+@media only screen and (max-width: 320px) {
+    
+}
